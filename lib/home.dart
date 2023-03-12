@@ -95,7 +95,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       title: Text(
                         todo[index],
-                        style: TextStyle(color: Colors.black),
+                        style: TextStyle(fontSize: 18,color: Colors.black),
                       ),
                       trailing: IconButton(
                         icon: Icon(
